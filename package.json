@@ -1,5 +1,5 @@
 {
-  "name": "slider",
+  "name": "react-slider-jwt",
   "version": "1.0.0",
   "description": "var Slider = require('./components/XSlider'); var injectTapEventPlugin = require('react-tap-event-plugin'); injectTapEventPlugin();",
   "main": "index.js",
