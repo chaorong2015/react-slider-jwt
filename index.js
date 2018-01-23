@@ -6,4 +6,4 @@
  */
 import XSlider from './src/XSlider';
 
-exports.default = XSlider;
+export default XSlider;
