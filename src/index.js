@@ -4,6 +4,6 @@
  * @Created by Rong on 2018/1/23.
  * @author Rong <chaorong@maichong.it>
  */
-import XSlider from './src/XSlider';
+import XSlider from './XSlider';
 
 export default XSlider;

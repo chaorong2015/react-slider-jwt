@@ -1,17 +1,34 @@
 {
   "name": "react-slider-jwt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "var Slider = require('./components/XSlider'); var injectTapEventPlugin = require('react-tap-event-plugin'); injectTapEventPlugin();",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/chaorong2015/react-slider-jwt.git"
   },
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel -d lib src/"
   },
   "author": "chaorong@maichong.it",
   "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.0.3",
+    "babel-plugin-syntax-class-properties": "^6.13.0",
+    "babel-plugin-syntax-export-extensions": "^6.13.0",
+    "babel-plugin-syntax-flow": "^6.18.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
   "dependencies": {
     "create-react-class": "^15.6.2",
     "prop-types": "^15.6.0",
