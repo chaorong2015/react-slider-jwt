@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "var Slider = require('./components/XSlider'); var injectTapEventPlugin = require('react-tap-event-plugin'); injectTapEventPlugin();",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chaorong2015/react-slider-jwt.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "chaorong@maichong.it",
+  "license": "MIT",
   "dependencies": {
     "create-react-class": "^15.6.2",
     "prop-types": "^15.6.0",
